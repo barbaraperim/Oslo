@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-font-family:Roboto;
+width:340px;
+padding-top:30px;
 `

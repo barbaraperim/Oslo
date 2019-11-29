@@ -10,4 +10,5 @@ text-align:center;
 line-height:52px;
 color: #FFFFFF;
 font-weight:bold;
+cursor:pointer;
 `

@@ -9,5 +9,6 @@ border-radius: 15px;
 color: #05AABA;
 text-align: center;
 line-height:52px;
-
+font-weight:bold;
+cursor:pointer;
 `

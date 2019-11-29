@@ -9,4 +9,5 @@ text-align:center;
 line-height:42px;
 color: #05AABA; 
 margin-left:50px;
+cursor:pointer;
 `
