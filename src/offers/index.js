@@ -15,7 +15,7 @@ class Offers extends React.Component{
 
   render(){
       const cards = cardInfo.map((i, key) => 
-      <Card info={i} selected={this.state.selected === key} />)
+      <Card key={key} info={i} selected={this.state.selected === key} />)
       return (
           <Wrapper>
               {cards}

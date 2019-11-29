@@ -12,8 +12,8 @@ import { Benefits } from './Benefits';
 
 class Card extends React.Component{
   render(){
-    const benefits = this.props.info.benefits.map((b) => 
-    <Benefits selected={this.props.selected}>
+    const benefits = this.props.info.benefits.map((b, key) => 
+    <Benefits selected={this.props.selected} key={key}>
         {b}
     </Benefits>)
 
