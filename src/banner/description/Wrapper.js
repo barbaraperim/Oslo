@@ -6,6 +6,6 @@ text-align:right;
 display: flex;
 flex-direction:column;
 align-items flex-end;
-justify-content:space-around;
+justify-content:center;
 width:790px;
 `
