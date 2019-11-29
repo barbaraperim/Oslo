@@ -1,9 +1,10 @@
 
 import styled from 'styled-components';
 
-export const Text = styled.div`
+export const Promo = styled.div`
 font-size:24px;
 text-align:center;
 font-weight:bold;
-margin-bottom:45px;
+color: #FFFFFF;
+line-height:50px;
 `

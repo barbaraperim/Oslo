@@ -5,6 +5,7 @@ import { Logo } from './Logo';
 import { Button } from './Button';
 import { Name } from './Name';
 import { Price } from './Price';
+import { Promo } from './Promo';
 
 import logoCare from '../../assets/LogoCare.png'
 import logoCareSelected from '../../assets/LogoCareSelected.png'
@@ -24,6 +25,7 @@ class Card extends React.Component{
 
       return (
           <Wrapper selected={this.props.selected}>
+              <Promo>Promoção</Promo>
               <InnerWrapper selected={this.props.selected}>
                 <Logo src={this.props.selected? logoCareSelected:logoCare}/>
                 <Price selected={this.props.selected}>

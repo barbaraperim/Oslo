@@ -10,4 +10,5 @@ line-height:65px;
 font-weight:bold;
 color: ${props=> props.selected? "#00BFD0":"#FFFFFF"}
 margin-bottom:49px;
+cursor:pointer;
 `
