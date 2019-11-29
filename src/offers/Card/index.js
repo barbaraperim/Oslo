@@ -6,10 +6,12 @@ import { Button } from './Button';
 import { Name } from './Name';
 import { Price } from './Price';
 import { Promo } from './Promo';
+import { Benefits } from './Benefits';
 
 import logoCare from '../../assets/LogoCare.png'
 import logoCareSelected from '../../assets/LogoCareSelected.png'
-import { Benefits } from './Benefits';
+import iconCart from '../../assets/cart-1.svg'
+import iconCartSelected from '../../assets/cart-2.svg'
 
 class Card extends React.Component{
   render(){
@@ -36,7 +38,9 @@ class Card extends React.Component{
                 <div style={benefitWrapper}>
                     {benefits}
                 </div>
-              <Button selected={this.props.selected}> Comprar </Button>
+              <Button icon={this.props.selected ? iconCartSelected: iconCart} selected={this.props.selected}>
+                   Comprar 
+              </Button>
               </InnerWrapper>
           </Wrapper>
       )

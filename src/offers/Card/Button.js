@@ -3,7 +3,10 @@ import styled from 'styled-components';
 export const Button = styled.div`
 width: 257px;
 height: 65px;
-background: ${props=> props.selected? "#FFFFFF 0% 0% no-repeat padding-box;": "#00A9C0 0% 0% no-repeat padding-box;"}
+background-image:url("${props=> props.iconWait}");
+background-repeat: no-repeat;
+background-position: center;
+background-color:${props=> props.selected? "#FFFFFF": "#00A9C0"}
 border-radius: 20px;
 text-align:center;
 line-height:65px;
